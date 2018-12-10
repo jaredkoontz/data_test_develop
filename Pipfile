@@ -1,0 +1,19 @@
+[[source]]
+url = 'https://pypi.python.org/simple'
+verify_ssl = true
+name = 'pypi'
+
+[requires]
+python_version = '2.7'
+
+[packages]
+lxml="*"
+mock="*"
+pytest = '*'
+pipenv-to-requirements = "*"
+
+[dev-packages]
+# these really should be in dev, but i want to cover my bases and add everythting we need to the default in case the testers
+# are not familliar with pipenv
+#pytest = '*'
+#pipenv-to-requirements = "*"

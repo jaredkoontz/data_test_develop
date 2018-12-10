@@ -1,3 +1,34 @@
+# Please read assumptions.md
+
+# How to run main
+```bash
+.\venv\Scripts\python.exe runner.py
+```
+
+# How to run tests
+
+I use pytests for testing
+
+```bash
+
+cd tests
+..\venv\Scripts\pytest.exe .\test_xml_to_csv.py
+
+```
+
+## version info
+
+```bash
+.\venv\Scripts\python.exe --version
+>>Python 2.7.14
+```
+
+
+### begin unchanged
+
+---
+
+
 # Assignment
 Write a script to download and parse the given XML feed, manipulate some of the data, and deliver a CSV of the
 required fields. You may use any additional libraries that you wish, please include a requirements.txt if you 
